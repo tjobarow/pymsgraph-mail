@@ -4,7 +4,7 @@ import os  # Import OS to load HTML email_details templates into string variable
 
 # From simple_o365_send_mail, import the SimpleSendMail class, then import
 # SimpleFileAttachment, BodyType, EmailImportance, as needed.
-from simple_o365_send_mail import (
+from pymsgraph_mail import (
     BodyType,
     EmailImportance,
     SimpleFileAttachment,
